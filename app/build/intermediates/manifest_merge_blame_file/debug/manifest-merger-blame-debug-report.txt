@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.notesapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+8-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml:5:5-25:19
+12        android:allowBackup="true"
+12-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\hikky\.gradle\caches\transforms-3\92eb60d8535fc0bcae98fa0845c4d6ea\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.NotesApp" >
+21-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml:11:9-46
+22        <activity
+22-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml:12:9-14:40
+23            android:name="com.example.notesapp.NotesActivity"
+23-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml:13:13-42
+24            android:exported="false" />
+24-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml:14:13-37
+25        <activity
+25-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml:15:9-24:20
+26            android:name="com.example.notesapp.MainActivity"
+26-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml:16:13-41
+27            android:exported="true"
+27-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml:18:13-36
+28            android:theme="@style/Theme.NotesApp.NoActionBar" >
+28-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml:17:13-62
+29            <intent-filter>
+29-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml:19:13-23:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml:20:17-69
+30-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml:20:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml:22:17-77
+32-->C:\Users\hikky\Downloads\GK\app\src\main\AndroidManifest.xml:22:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <service
+36-->[androidx.room:room-runtime:2.4.3] C:\Users\hikky\.gradle\caches\transforms-3\979abd1af246e2286d2dbc5361049a97\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+37            android:name="androidx.room.MultiInstanceInvalidationService"
+37-->[androidx.room:room-runtime:2.4.3] C:\Users\hikky\.gradle\caches\transforms-3\979abd1af246e2286d2dbc5361049a97\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+38            android:directBootAware="true"
+38-->[androidx.room:room-runtime:2.4.3] C:\Users\hikky\.gradle\caches\transforms-3\979abd1af246e2286d2dbc5361049a97\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+39            android:exported="false" />
+39-->[androidx.room:room-runtime:2.4.3] C:\Users\hikky\.gradle\caches\transforms-3\979abd1af246e2286d2dbc5361049a97\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+40
+41        <provider
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hikky\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+42            android:name="androidx.startup.InitializationProvider"
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hikky\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+43            android:authorities="com.example.notesapp.androidx-startup"
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hikky\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+44            android:exported="false" >
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hikky\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+45            <meta-data
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hikky\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hikky\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+47                android:value="androidx.startup" />
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hikky\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+48            <meta-data
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hikky\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hikky\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+50                android:value="androidx.startup" />
+50-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hikky\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+51        </provider>
+52    </application>
+53
+54</manifest>
